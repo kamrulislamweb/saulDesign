@@ -1,0 +1,13 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background: #222831;
+}
+nav .nav-link{
+    color: #EEEEEE;
+}
+nav .navbar-nav{
+    gap: 48px;
+}
+nav .nav-link{
+    padding: 48px 0;
+}

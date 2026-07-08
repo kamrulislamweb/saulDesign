@@ -1,49 +1,133 @@
-body{
-    font-family: "Poppins", sans-serif;
-    background: #222831;
+body {
+  font-family: "Poppins", sans-serif;
+  background: #222831;
 }
 /* header part start */
-.navbar{
-    border-bottom: 1px solid rgb(238, 238, 238, 0.1);
+.navbar {
+  border-bottom: 1px solid rgb(238, 238, 238, 0.1);
 }
-nav .nav-link{
-    color: #EEEEEE;
+nav .nav-link {
+  color: #eeeeee;
 }
-nav .navbar-nav{
-    gap: 48px;
+nav .navbar-nav {
+  gap: 48px;
 }
-nav .nav-link{
-    padding: 48px 0;
+nav .nav-link {
+  padding: 48px 0;
 }
 /* header part end */
 
 /* banner part start */
-#banner .container{
-    margin-top: 172px;
+#banner .container {
+  margin-top: 172px;
 }
-#banner h1{
-    color: #EEEEEE;
-    font-size: 96px;
-    font-weight: 700;
-}
-
-#banner span{
-    color: #00ADB5;
+#banner h1 {
+  color: #eeeeee;
+  font-size: 96px;
+  font-weight: 700;
 }
 
-#banner button{
-    background: #00ADB5;
-    color: #EEEEEE;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
-    padding: 10px 32px;
-    border-radius: 24px;
-    margin-top: 48px;
-    
+#banner span {
+  color: #00adb5;
 }
-#banner .downloadbtn{
-    margin-left: 24px;
-    background: #393E46;
+
+#banner button {
+  background: #00adb5;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 24px;
+  margin-top: 48px;
+}
+#banner .downloadbtn {
+  margin-left: 24px;
+  background: #393e46;
 }
 /* banner part end */
+
+/* about part start */
+#about {
+    padding-bottom: 69px;
+    padding-top: 230px;
+    margin-bottom: 130px;
+    border-bottom: 1px solid rgb(238, 238, 238, 0.1);
+}
+.aboutbg {
+  background: url("../images/aboutbg.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+#about h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+#about h2 span {
+  color: #00adb5;
+}
+#about p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #eeeeee;
+  max-width: 389px;
+}
+/* about part end */
+
+/* works part start */
+#works{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/worksbg.png") no-repeat;
+    background-size: 100% 1024px;
+    padding-bottom: 367px;
+}
+#works .container .workstitle{
+    padding-top: 268px;
+    padding-bottom: 48px;
+}
+.workstitle h2{
+ font-size: 64px;
+  font-weight: 700;
+  color: #eeeeee;
+  margin-bottom: ;
+}
+.workstitle h2 span {
+  color: #00adb5;
+}
+.workstitle .btn1{
+     background: #00adb5;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 24px;
+  margin-top: 48px;
+}
+.workstitle button{
+     background: #393E46;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 24px;
+  margin-top: 48px;
+  margin-left: 16px;
+}
+
+/* works part end */
+
+/* contact part start */
+#contact h2{
+    font-size: 64px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+#contact h2 span{
+   color: #00adb5;
+}
+/* contact part end */

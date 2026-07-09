@@ -2,25 +2,31 @@ body {
   font-family: "Poppins", sans-serif;
   background: #222831;
 }
+
 /* header part start */
 .navbar {
   border-bottom: 1px solid rgb(238, 238, 238, 0.1);
 }
+
 nav .nav-link {
   color: #eeeeee;
 }
+
 nav .navbar-nav {
   gap: 48px;
 }
+
 nav .nav-link {
   padding: 48px 0;
 }
+
 /* header part end */
 
 /* banner part start */
 #banner .container {
   margin-top: 172px;
 }
+
 #banner h1 {
   color: #eeeeee;
   font-size: 96px;
@@ -41,19 +47,22 @@ nav .nav-link {
   border-radius: 24px;
   margin-top: 48px;
 }
+
 #banner .downloadbtn {
   margin-left: 24px;
   background: #393e46;
 }
+
 /* banner part end */
 
 /* about part start */
 #about {
-    padding-bottom: 69px;
-    padding-top: 230px;
-    margin-bottom: 130px;
-    border-bottom: 1px solid rgb(238, 238, 238, 0.1);
+  padding-bottom: 69px;
+  padding-top: 230px;
+  margin-bottom: 130px;
+  border-bottom: 1px solid rgb(238, 238, 238, 0.1);
 }
+
 .aboutbg {
   background: url("../images/aboutbg.png") no-repeat center;
   background-size: cover;
@@ -65,40 +74,47 @@ nav .nav-link {
   font-weight: 700;
   color: #eeeeee;
 }
+
 #about h2 span {
   color: #00adb5;
 }
+
 #about p {
   font-size: 18px;
   font-weight: 400;
   color: #eeeeee;
   max-width: 389px;
 }
+
 /* about part end */
 
 /* works part start */
-#works{
-    width: 100%;
-    min-height: 100vh;
-    background: url("../images/worksbg.png") no-repeat;
-    background-size: 100% 1024px;
-    padding-bottom: 367px;
+#works {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../images/worksbg.png") no-repeat;
+  background-size: 100% 1024px;
+  padding-bottom: 367px;
 }
-#works .container .workstitle{
-    padding-top: 268px;
-    padding-bottom: 48px;
+
+#works .container .workstitle {
+  padding-top: 268px;
+  padding-bottom: 48px;
 }
-.workstitle h2{
- font-size: 64px;
+
+.workstitle h2 {
+  font-size: 64px;
   font-weight: 700;
   color: #eeeeee;
   margin-bottom: ;
 }
+
 .workstitle h2 span {
   color: #00adb5;
 }
-.workstitle .btn1{
-     background: #00adb5;
+
+.workstitle .btn1 {
+  background: #00adb5;
   color: #eeeeee;
   font-size: 18px;
   font-weight: 700;
@@ -107,8 +123,9 @@ nav .nav-link {
   border-radius: 24px;
   margin-top: 48px;
 }
-.workstitle button{
-     background: #393E46;
+
+.workstitle button {
+  background: #393E46;
   color: #eeeeee;
   font-size: 18px;
   font-weight: 700;
@@ -122,12 +139,111 @@ nav .nav-link {
 /* works part end */
 
 /* contact part start */
-#contact h2{
-    font-size: 64px;
+#contact h2 {
+  font-size: 64px;
   font-weight: 700;
   color: #eeeeee;
 }
-#contact h2 span{
-   color: #00adb5;
+
+#contact h2 span {
+  color: #00adb5;
 }
+#contact{
+   border-bottom: 1px solid rgb(238, 238, 238, 0.1);
+}
+#contact .contactform {
+  display: flex;
+  
+}
+
+#contact label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee;
+  margin-bottom: 10px;
+}
+
+#contact .contactform input {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee;
+  background: rgba(57, 62, 70, 0.5);
+  border: none;
+  padding: 16px 0 16px 24px;
+  width: 288px;
+  border-radius: 16px;
+}
+#contact form{
+  padding-bottom: 258px;
+}
+#contact .contactform{
+  margin-bottom: 24px;
+ 
+}
+
+#contact textarea {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee;
+  background: rgba(57, 62, 70, 0.5);
+  border: none;
+  padding: 16px 0 16px 24px;
+  width: 600px;
+  height: 288px;
+  border-radius: 16px;
+}
+#contact button{
+  background: #00adb5;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 65px 10px 32px;
+  border-radius: 32px;
+  margin-top: 24px;
+}
+
 /* contact part end */
+/*footer part start */
+footer{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 167px;
+}
+#footerpart .container{
+  text-align: center;
+}
+footer .footerbtn button{
+  font-size: 18px;
+  font-weight: 400;
+  color: #eeeeee;
+  background: #222831;
+  border: none;
+  padding: 48px;
+
+}
+.social-icons{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+.social-icons a{
+    width:46px;
+    height:46px;
+    background:#3b4048;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#d9d9d9;
+    font-size:18px;
+    text-decoration:none;
+    transition:all .3s ease;
+}
+
+.social-icons a:hover{
+    background:#ffffff;
+    color:#222831;
+    transform:translateY(-3px);
+}
+/* footer part end */
